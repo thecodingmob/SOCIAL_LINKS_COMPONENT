@@ -72,6 +72,12 @@ body {
 .wrapper .links {
   gap: 1em;
 }
+.wrapper .links ul {
+  list-style: none;
+}
+.wrapper .links li {
+  margin-bottom: 1em;
+}
 .wrapper .links a {
   display: block;
   text-decoration: none;
