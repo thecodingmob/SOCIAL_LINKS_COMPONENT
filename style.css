@@ -33,7 +33,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 364px;
+  width: 370px;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -43,8 +43,8 @@ body {
 }
 .wrapper img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .wrapper .img,
 .wrapper .text,
@@ -67,10 +67,10 @@ body {
 }
 .wrapper .text .work {
   font-weight: var(--fw-400);
-  margin: 17px 0 8px 0;
+  margin: 20px 0 10px 0;
 }
 .wrapper .links {
-  gap: 0.8em;
+  gap: 1em;
 }
 .wrapper .links a {
   display: block;
@@ -79,7 +79,7 @@ body {
   color: var(--white);
   font-weight: var(--fw-600);
   padding: 14px;
-  width: 296px;
+  width: 299px;
   text-align: center;
   border-radius: 8px;
 }
